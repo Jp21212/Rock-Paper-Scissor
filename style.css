@@ -1,3 +1,24 @@
-.one{
-    
+.img-container{
+    display: flex;
+    width: 50%;
+    height: 469px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.button{
+    display: flex;
+    display: inline-block;
+    margin-right: 250px;
+    margin-left: 150px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
 }
