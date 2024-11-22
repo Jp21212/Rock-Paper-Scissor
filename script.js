@@ -58,8 +58,8 @@ function displayResults(playerChoice, computerChoice, winner) {
     if (winner === 'tie') {
         resultElement.textContent += " It's a tie!";
     } else if (winner === 'player') {
-        resultElement.textContent += " You win!,Computer loses good boy.";
+        resultElement.textContent += " You win!,Computer loses, good boy.";
     } else {
-        resultElement.textContent += " Computer wins!,You lose you bum.";
+        resultElement.textContent += " Computer wins!,You lose, you bum.";
     }
 }
