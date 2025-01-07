@@ -50,7 +50,6 @@ function updateScore(winner) {
     computerScoreElement.textContent = `Computer: ${computerScore}`;
 }
 
-// Display the results
 function displayResults(playerChoice, computerChoice, winner) {
     resultElement.textContent = `You chose ${playerChoice}.`;
     computerChoiceElement.textContent = `Computer chose ${computerChoice}.`;
